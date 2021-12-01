@@ -1,0 +1,2 @@
+python BSCMultiSniper.pyc
+pause

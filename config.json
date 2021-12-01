@@ -1,0 +1,80 @@
+﻿{
+   "walletAddress":"Enter wallet address here",
+   "walletPrivateKey":"Enter private key here",
+   "exchangeRouterAddress":"0x10ED43C718714eb63d5aA57B78B54704E256024E",
+   "exchangeFactoryAddress":"0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73",
+   "bscNode":"Enter your node URL here",
+   "transactionRevertTime":"10000",
+   "newTokens":{
+      "buyTokens":"False",
+      "sellTokens":"False",
+      "totalAllowedSnipes":"-1",
+      "liquidityPairs":[
+         {
+            "symbol":"BNB",
+            "liquidityPairAddress":"0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+            "snipeAmount":"0.002",
+            "minLiquidityAmount":"0",
+            "maxLiquidityAmount":"1000000000000"
+         }
+      ],
+      "gasAmount":"2500000",
+      "gasPrice":"5",
+      "autoSellProfitMultiplier":"2",
+      "autoSellTokenPercentage":"100",
+      "miniAudit":{
+         "enableMiniAudit":"True",
+         "checkHoneypot":"True",
+         "maxBuyFee":"20",
+         "maxSellFee":"20",
+         "maxLiquidityRisk":"0",
+         "checkCodeVerified":"True",
+         "allowOwnerAccess":"False"
+      }
+   },
+   "telegram":{
+      "proxy":{
+         "enableProxy":"False",
+         "proxyType":"socks5",
+         "proxyAddress":"127.0.0.1",
+         "proxyPort":"8080",
+         "useProxyCredentials":"False",
+         "proxyUsername":"admin",
+         "proxyPassword":"password",
+         "useProxyRDNS":"False"
+      },
+      "api_id":"Enter API ID here",
+      "api_hash":"Enter API hash here",
+      "gasSettings":{
+         "buy_gasAmount":"1000000",
+         "buy_gasPrice":"5",
+         "approve_gasPrice":"5",
+         "sell_gasAmount":"1000000",
+         "sell_gasPrice":"5"
+      },
+      "buyTokens": "True",
+      "sellTokens": "True",
+      "totalAllowedSnipes":"-1",
+      "stopLossMultiplier":"0.5",
+      "autoSellMultiplier":"2",
+      "autoSellTokenPercentage":"100",
+      "rugDocSettings":"None",
+      "liquidityPairs":[
+         {
+            "symbol":"BNB",
+            "liquidityPairAddress":"0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+            "snipeAmount":"0.002"
+         }
+      ],
+      "telegramChannels":[
+         {
+            "channelName":"CMC_fastest_alerts",
+            "requiredText":"(first pump)"
+         },
+         {
+            "channelName":"CG_fastest_alerts",
+            "requiredText":"(first pump)"
+         }
+      ]
+   }
+}
